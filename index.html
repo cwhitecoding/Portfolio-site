@@ -4,21 +4,64 @@
     <title>Caleb White | Portfolio Site</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <aside>
+    <header>
+        <h1>Caleb White</h1>
+        <p>Welcome to my portfolio site!</p>
+    </header>
+    
+    <nav>  
+        <a href="#aboutMe">About Me</a>
+        <a href="#work">Work</a>
+        <a href="resume">Resume</a>
+        <a href="contactMe">Contact Me</a>
+    </nav>
 
+    <aside>
+        <img src="./assets/images/aboutMeImg.PNG" alt="Profile Photo">
+        <h2 id="aboutMe">About Me</h2>
+        <p>Hello, my name is Caleb White. I am a software developer in training with aspirations of making a career change into tech. 
+        I have experience working in many fields in many locations along the west coast. From California farms to Portland moving companies,
+        I have met and explored many opportunities! I enjoy traveling with my long term partner of 10 years and our Goldendoodle kid, Captain!
+        My entire life I have enjoyed the outdoors and created a short career around it while farming specialty crops in Sonoma County, CA.
+        I enjoyed this work, however I always felt there was something more to life. When I was growing up I have been told multiple
+        times by my role models that working hard is good, but to be paid for what I KNOW and not what my body can DO is when I will really 
+        see my knowledge and work pay off. This, I believe, is the key to a long life of living happily without an aching body, just a weakth 
+        of knowledge. So here I am, succeeding in improving my wealth of knowledge to lead a more happy life of longevity!
+        </p>
     </aside>
     
-    <main>
+    <figure class="titleImg"></figure>
 
+    <main>
+        <section id="work">
+            <h2>Applications</h2>
+            <section class="card" >
+                <h2>Console Study Guide</h2>
+                <a href="https://cwhitecoding.github.io/Prework-Study-Guide/"><img src="./assets/images/noteTakingImg.jpeg" alt="Note Taking Img"></a>
+            </section>
+            <section class="card">
+                <h2>SEO and Semantics</h2>
+                <a href="https://cwhitecoding.github.io/SEO-and-Semantics/"><img src="./assets/images/SEOandSematics.PNG" alt="Site Screenshot"> </a>
+            </section>
+        </section>
+        <section id="Resume">
+            <h2>Resume</h2>
+        </section>
+        <section id="contactMe">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email</li>
+            </ul>
+        </section>
     </main>
 
-    <footer>
-        
+    <footer class="footer">
+    <h2>Made with ❤️️ by Caleb White</h2>
     </footer>
 </body>
 </html>
