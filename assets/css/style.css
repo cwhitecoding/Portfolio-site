@@ -1,0 +1,10 @@
+body{
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.33;
+}
+
+header{
+    padding: 15px;
+    justify-content: space-between;
+}
