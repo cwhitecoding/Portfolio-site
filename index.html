@@ -9,63 +9,67 @@
 </head>
 
 <body>
-    <header>
+    <header id="nav">
         <h1>Caleb White</h1>
-        <p>Welcome to my portfolio site!</p>
         <nav>  
-            <a href="#aboutMe">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#resume">Resume</a>
-            <a href="#contactMe">Contact Me</a>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
-
-    <aside>
-        <img src="./assets/images/aboutMeImg.PNG" alt="Profile Photo">
-        <h2 id="aboutMe">About Me</h2>
-        <p>Hello, my name is Caleb White. I am a software developer in training with aspirations of making a career change into tech. 
-        I have experience working in many fields in many locations along the west coast. From California farms to Portland moving companies,
-        I have met and explored many opportunities! I enjoy traveling with my long term partner of 10 years and our Goldendoodle kid, Captain!
-        My entire life I have enjoyed the outdoors and created a short career around it while farming specialty crops in Sonoma County, CA.
-        I enjoyed this work, however I always felt there was something more to life. When I was growing up I have been told multiple
-        times by my role models that working hard is good, but to be paid for what I KNOW and not what my body can DO is when I will really 
-        see my knowledge and work pay off. This, I believe, is the key to a long life of living happily without an aching body, just a weakth 
-        of knowledge. So here I am, succeeding in improving my wealth of knowledge to lead a more happy life of longevity!
-        </p>
-    </aside>
     
-    <figure class="titleImg"></figure>
-
     <main>
-        <section id="work">
-            <h2>Applications</h2>
-            <section class="card firstApp">
-                <header>Console Study Guide</header>
-                <p>HTML</p>
-                <a href="https://cwhitecoding.github.io/Prework-Study-Guide/"><img src="./assets/images/noteTakingImg.jpeg" alt="Note Taking Img"></a>
-            </section>
-            <section class="card">
-                <header>SEO and Semantics</header>
-                <p>HTML/CSS</p>
-                <a href="https://cwhitecoding.github.io/SEO-and-Semantics/"><img src="./assets/images/SEOandSematics.PNG" alt="Site Screenshot"> </a>
-            </section>
-        </section>
-        <section id="resume">
-            <h2>Resume</h2>
-            <p><a href="./assets/CopyResume.pdf">Click here for my resume!</a></p> 
-        </section>
-        <section id="contactMe">
-            <h2>Contact Me</h2>
-            <p> 📞: 555-555-5555 
-                📧: cwhitecoding@gmail.com 
-                <a href="https://github.com/cwhitecoding">GitHub</a> 
-                <a href="https://twitter.com/cwhitecoding">X/Twitter</a> 
-                <a href="https://www.linkedin.com/in/caleb-white-9b8311218/">LinkedIn</a>
+        <aside id="aboutMe">
+            <img class="aboutMeImg" src="./assets/images/aboutMeImg.PNG" alt="Profile Photo">
+            <h2>About Me</h2>
+            <p>Hello, my name is Caleb White. I am a software developer in training with aspirations of making a career change into tech. 
+                I have experience working in many fields in many locations along the west coast. From California farms to Portland moving companies,
+                I have met and explored many opportunities! I enjoy traveling with my long term partner of 10 years and our Goldendoodle kid, Captain!
+                My entire life I have enjoyed the outdoors and created a short career around it while farming specialty crops in Sonoma County, CA.
+                I enjoyed this work, however I always felt there was something more to life. When I was growing up I have been told multiple
+                times by my role models that working hard is good, but to be paid for what I KNOW and not what my body can DO is when I will really 
+                see my knowledge and work pay off. This, I believe, is the key to a long life of living happily without an aching body, just a weakth 
+                of knowledge. So here I am, succeeding in improving my wealth of knowledge to lead a more happy life of longevity!
             </p>
-        </section>
+        </aside>
+        <div>
+            <figure class="titleImg"></figure>
+                <h2 id="work">Applications</h2>
+
+                    <section class="card" id="firstApp">
+                    <h3>Console Study Guide</h3>
+                        <p>HTML</p>
+                        <a href="https://cwhitecoding.github.io/Prework-Study-Guide/"><img src="./assets/images/noteTakingImg.jpeg" alt="Note Taking Img"></a>
+                    </section>
+
+                    <section class="card">
+                    <h3>SEO and Semantics</h3>
+                        <p>HTML/CSS</p>
+                        <a href="https://cwhitecoding.github.io/SEO-and-Semantics/"><img src="./assets/images/SEOandSematics.PNG" alt="Site Screenshot"> </a>
+                    </section>
+
+            <h2>Resume</h2>
+            <section id="resume">
+                <p><a href="./assets/CopyResume.pdf">Click here for my resume!</a></p> 
+            </section>
+
+            <h2>Contact Me</h2>
+            <section id="contactMe">
+                <ul> 
+                    <li>📞: 555-555-5555</li>
+                    <li>📧: cwhitecoding@gmail.com</li>
+                    <li><a href="https://github.com/cwhitecoding">GitHub</a> </li>
+                    <li><a href="https://twitter.com/cwhitecoding">X/Twitter</a> </li>
+                    <li><a href="https://www.linkedin.com/in/caleb-white-9b8311218/">LinkedIn</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
 
-    <footer class="footer">
+    <footer>
     <h2>Made with ❤️️ by Caleb White</h2>
     </footer>
 </body>
