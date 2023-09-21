@@ -1,10 +1,179 @@
+:root{
+    --green: #155608e2;
+    --tan: #c29a6d;
+    --navLink-color: #e7d8c6;
+}
+
 body{
-    margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.33;
 }
 
-header{
-    padding: 15px;
+h1{
+    font-size: 300%;
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+h2{
+    font-size: 200%;
+    padding: 30px 0px 10px 20px;
+    /* margin-inline-start: 0; */
+}
+
+h3{
+    font-size: 115%;
+}
+
+#nav {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--green);
+    color: var(--tan);
+}
+
+nav ul {
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    min-width: 450px;
+}
+
+nav a{
+    background-color: unset;
+    color: var(--tan);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--navLink-color);
+}
+
+nav a:active {
+    font-size: larger;
+    font-weight: 200;
+    color:black;
+}
+
+main{
+    display:flex;
+}
+
+aside{
+    max-width: 30%;
+    background-color: var(--tan);
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div {
+    background-color: #ebc599;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer{
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #428834e2;
+}
+
+.titleImg{
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/forestBanner.jpeg");
+    background-size:auto;
+    background-position: center;
+}
+
+.aboutMeImg {
+    width: 69%;
+    height: 23%;
+    border: 10px solid var(--green);
+}
+
+#work {
+    padding-bottom: 0px;
+}
+
+#firstApp img{
+    width: 425px;
+    height: 325px;
+}
+.card h3{
+    padding-top: 20px;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    align-items: center;
+}
+#resume a:hover{
+    font-size:larger;
+    color:#428834e2;
+}
+
+#contactMe ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#contactMe a:hover{
+    color: #428834e2;
+}
+
+@media screen and (max-width: 975px) {
+    #nav{
+        background-color: var(--tan);
+        color: var(--green);
+    }
+    nav a{
+        color:var(--green);
+    }
+    aside{
+        background-color: var(--green);
+        color: var(--tan);
+    }
+    .aboutMeImg {
+        border: 10px solid var(--tan);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #nav{
+        background-color: #ebc599;
+        color: var(--green);
+    }
+    nav a{
+        color:#428834e2;
+    }
+    aside{
+        background-color: var(--navLink-color);
+        color:#000;
+        font-size: 90%;
+    }
+    div{
+        background-color: var(--green);
+        color: var(--tan)
+    }
+    .aboutMeImg {
+        border: 10px solid #428834e2;
+    }
+    #resume a:hover{
+        color: var(--navLink-color);
+    }
+    #contactMe a:hover{
+        color: var(--navLink-color);
+    }
 }
