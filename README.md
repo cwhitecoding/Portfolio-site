@@ -30,6 +30,6 @@ N/A
 
 ## Tests
 
-Links: click on links -> check: good
-Photo links: click on photos -> check: good
-Responsive to screen size: change scrren size -> check: good
+- Links: click on links -> check: good
+- Photo links: click on photos -> check: good
+- Responsive to screen size: change scrren size -> check: good
